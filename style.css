@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.part1{
+    display: flex;
+    margin-left: 3em;
+    flex-wrap: wrap;
+}
+
+.img{
+    height: 500px;
+    width: 600px;
+}
+
+.secbtn{
+
+}
+
+.head{
+    margin-left: 2em;
+}
+ 
+.btnn{
+    height: 40px;
+    width: 140px;
+    border-radius: 12px;
+    background-color: rgb(214, 164, 69);
+}
+
+
+.btnn2{
+    height: 40px;
+    width: 140px;
+    border-radius: 12px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+
+.part2{
+    /* display: flex;
+    justify-content: center; */
+}
+
+.head2{
+    text-align: center;
+    margin-top:1em ;
+}
+
+
+.span1{
+    color: rgb(214, 164, 69);
+}
+
+.imgsec{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.btnn22{
+    height: 40px;
+    width: 177px;
+    border-radius: 12px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+  /* margin: 0 auto !important */
+  margin-left: 31em;
+ 
+ 
+}
+
+
+.part3{
+    display: flex;
+    justify-content: center;
+}
+
+.dflex{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgg{
+    height: 70px;
+    width: 70px;
+    margin-left: 4em;
+
+}
+
+.hed{
+    font-weight: bold;
+}
+
+.part4{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+}
+
+.child{
+    height: 366px;
+    width: 232px;
+    background-color: rgb(250, 246, 247);
+    border: 2px dashed black;
+    margin-bottom: 1em;
+    
+    
+}
+
+.temo{
+   margin-left: 4.2em;
+   padding-top: 0.7em;
+}
+
+
+.part6{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    color: white;
+}
+
+.ul{
+   list-style: none;
+}
+.left{
+/* margin-left: 17em; */
+
+}
+
+/* .button{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(212, 151, 77);
+    border: none;
+} */
+
+@media(max-width:721px){
+    .btnn22{
+        width: 150px;
+        margin-left: -0.2em;
+    }
+}
+
+
+@media(max-width:726px){                 
+    .left{
+        width: 200px;
+        height: 200px;
+    }
+.img{
+    width: 200px;
+    height: 200px;
+
+}
+
+}
